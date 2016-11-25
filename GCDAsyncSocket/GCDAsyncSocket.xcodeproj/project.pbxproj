@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5180E7A01DE86DC8009C2546 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5180E79F1DE86DC8009C2546 /* GCDAsyncSocket.m */; };
 		BAFC69611DE84B2300C0ADC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFC69601DE84B2300C0ADC0 /* main.m */; };
 		BAFC69641DE84B2300C0ADC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFC69631DE84B2300C0ADC0 /* AppDelegate.m */; };
 		BAFC69671DE84B2300C0ADC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFC69661DE84B2300C0ADC0 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5180E79E1DE86DC8009C2546 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		5180E79F1DE86DC8009C2546 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		BAFC695C1DE84B2300C0ADC0 /* GCDAsyncSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDAsyncSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFC69601DE84B2300C0ADC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAFC69621DE84B2300C0ADC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		BAFC695E1DE84B2300C0ADC0 /* GCDAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
+				5180E79E1DE86DC8009C2546 /* GCDAsyncSocket.h */,
+				5180E79F1DE86DC8009C2546 /* GCDAsyncSocket.m */,
 				BAFC69621DE84B2300C0ADC0 /* AppDelegate.h */,
 				BAFC69631DE84B2300C0ADC0 /* AppDelegate.m */,
 				BAFC69651DE84B2300C0ADC0 /* ViewController.h */,
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5180E7A01DE86DC8009C2546 /* GCDAsyncSocket.m in Sources */,
 				BAFC69671DE84B2300C0ADC0 /* ViewController.m in Sources */,
 				BAFC69641DE84B2300C0ADC0 /* AppDelegate.m in Sources */,
 				BAFC69611DE84B2300C0ADC0 /* main.m in Sources */,
@@ -410,6 +416,7 @@
 				BAFC69801DE84B2300C0ADC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAFC69811DE84B2300C0ADC0 /* Build configuration list for PBXNativeTarget "GCDAsyncSocketTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +425,7 @@
 				BAFC69831DE84B2300C0ADC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
